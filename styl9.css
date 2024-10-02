@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8e9e9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    background-color: #c36b6b;
+    padding: 10px 0;
+}
+
+header h1 {
+    color: white;
+    margin: 0;
+}
+
+.promocje, .contact {
+    background-color: #d89b9b;
+    padding: 20px;
+    width: 25%;
+    float: left;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.promocje h2, .contact h2 {
+    color: darkred;
+    font-size: 24px;
+}
+
+.promocje ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.promocje ul li {
+    margin-bottom: 10px;
+}
+
+.destinations {
+    background-color: #f8e9e9;
+    padding: 20px;
+    width: 70%;
+    float: left;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.destinations h2 {
+    color: darkred;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.previous-trips {
+    clear: both;
+    padding: 20px;
+    background-color: #f8e9e9;
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.previous-trips h3 {
+    color: darkred;
+    font-size: 24px;
+}
+
+.previous-trips ol {
+    text-align: left;
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #c36b6b;
+    color: white;
+    margin-top: 20px;
+}
+
+.contact a {
+    color: blue;
+    text-decoration: underline;
+}
